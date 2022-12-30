@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codeai-epze.onrender.com',
+    const response = await fetch('http://localhost:5000',
      {
         method: 'POST',
         headers: {
